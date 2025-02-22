@@ -144,3 +144,64 @@ y = "is"
 z = "awesome."
 print(x + y + z)
 
+# '+' as a Mathematical Operator When Used With Integers
+
+x = 5
+y = 10
+print("x + y =", x + y)
+
+"""
+print() Function Error When Using '+' Operator Between Integer and String
+
+x = 5
+y = "John"
+print(x + y)
+
+"""
+
+# Output Multiple Variables With Different Data Types Using Commas
+
+x = 5
+y = "John"
+print("Out of x and y respectively is '", x, y, "'")
+
+# Global Variables
+
+x = "awesome." # x is set globally, as in outside of the function where it will be used/called.
+
+def myfunc():
+	print("Python is " + x)
+
+myfunc()
+
+# Use Local Variable to Illustrate Updating the Global Variable
+
+x = "awesome." # x set globally.
+
+def myfunc():
+	x = "fantastic." # x set local to function.
+	print("x called inside the function: Python is " + x)
+
+myfunc()
+
+print("x called outside of the function: Python is " + x)
+
+# Global Keyword
+
+def myfunc():
+	global x # x set locally using 'global' keyword which means it gets set as if set outside the function.
+	x = "fantastic."
+
+myfunc()
+print("Python is " + x)
+
+# Set Global Variable & Update Variable with 'global' Keyword
+
+x = "awesome." # x set globally.
+
+def myfunc():
+	global x # x set locally using 'global' keyword which would update the globally set x.
+	x = "fantastic."
+
+myfunc()
+print("Python is " + x)
