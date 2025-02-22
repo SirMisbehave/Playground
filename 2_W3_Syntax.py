@@ -26,4 +26,5 @@ x = 5
 y = "Hello, World!"
 
 # Comments - Yes, this is weird, as I'm already using comments quite a bit, but I needed to properly document my learnings' with Python and so here we are.
-print("Hello, World! This was preceded by a comment.")
+
+print("Hello, World! This print statement is preceded by a singe line comment.")
