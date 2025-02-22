@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hello World
 print("Hello World")
 
