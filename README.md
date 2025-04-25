@@ -1,7 +1,7 @@
-# Learning Python
+# Playground
 
-Read, write, compile/run, adjust, tweak, compile/run again. This is just my way of playing around with everything I'm learning so far and uploadng to Gtihub so that I can look back over it if I ever wanted.
+Welcome to the Playground.
 
-I type out everything by hand, because I enjoy forcing my brain to remember everything and never rely on code completion or AI.
+This is where I learn and play around with different languages, or if I have random ideas that I don't belong in a project on it's own, I will save into this repository, seperated by folders.
 
-I'm also apparently learning Git cuz' I'm slow and like pressing all the buttons to test things. Can you see this?
+The current plan is to learn Zig. Why? Enough questions! Cuz I can, mostly. Something new and fast and apparently fun. For web technologies, I will be using JavaScript/TypeScript since I can use one language via a Zig built runtime called bun, and it'll keep the amount of languages required to learn at a low number so I can focus on building things, and not getting paralyzed by indecision looking for the best language, etc.
